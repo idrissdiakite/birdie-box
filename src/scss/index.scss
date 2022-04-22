@@ -1,0 +1,62 @@
+@import "./variables";
+@import "../components/Footer/style.scss";
+@import "../components/Header/style.scss";
+@import "../components/Main/style.scss";
+@import "../components/Main/Description/style.scss";
+@import "../components/Main/Description/Button/style.scss";
+@import "../components/Main/Mockup/style.scss";
+
+
+// RESET
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  border-width: 0;
+  border-radius: 0;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+
+// Global
+
+@font-face {
+  font-family: "Sen";
+  src: local('Sen-Bold'), url(./../assets/fonts/Sen-Bold.ttf)
+}
+
+body, h1, p, a {
+  font-family: $sen;
+}

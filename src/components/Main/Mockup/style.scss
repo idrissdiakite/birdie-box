@@ -1,0 +1,60 @@
+.mockup {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    position: relative;
+    -webkit-animation: bounce 2s ease-in-out infinite;
+    animation: bounce 2s ease-in-out infinite;
+}
+
+@-webkit-keyframes bounce {
+    0% {
+        top: 10px;
+    }
+    50% {
+        top: -10px;
+    }
+    100% {
+        top: 10px;
+    }
+}
+
+@keyframes bounce {
+    0% {
+        top: 10px;
+    }
+    50% {
+        top: -10px;
+    }
+    100% {
+        top: 10px;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .mockup {
+        width: 50%;
+        margin-right: 12rem;
+        margin-left: 3rem;
+        padding-top: 6rem;
+        align-items: end;
+    }
+
+  }
+  
+  @media screen and (min-width: 1920px) {
+
+    .mockup {
+        width: 60%;
+        margin-right: 12rem;
+        margin-left: 3rem;
+        padding-top: 6rem;
+        align-items: end;
+    }
+
+  }
+  
+  @media screen and (min-width: 2560px) {
+
+  }

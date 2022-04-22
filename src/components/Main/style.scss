@@ -1,0 +1,84 @@
+@import "./../../scss/variables.scss";
+
+.main {
+  position: relative;
+  background-color: $white-cream;
+}
+
+.main__container {
+  padding: 3.5rem 2rem;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
+.letter {
+  position: absolute;
+  width: 50px;
+  right: 1.5rem;
+  bottom: -3rem;
+}
+
+.background {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .letter {
+    width: 75px;
+    top: -100px;
+    right: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main__container {
+    display: flex;
+    padding: 4rem 5rem;
+    margin-top: -3rem;
+  }
+
+  .letter {
+    width: 125px;
+    top: -100px;
+    right: 50px;
+  }
+
+  .background {
+    display: block;
+    position: absolute;
+    height: 480px;
+    bottom: -116px;
+    left: -50px;
+    transform: rotate(-3deg);
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .letter {
+    top: -110px;
+  }
+
+  .background {
+    bottom: -115px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .background {
+    bottom: -154px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .letter {
+    width: 225px;
+    top: -200px;
+    right: 100px;
+  }
+
+  .background {
+    height: 680px;
+    bottom: -185px;
+  }
+}

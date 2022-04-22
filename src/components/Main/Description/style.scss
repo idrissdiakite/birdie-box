@@ -1,0 +1,157 @@
+@import "./../../../scss/variables";
+
+.description {
+  height: 450px;
+}
+
+.description .flag {
+  height: 30px;
+}
+
+.description p {
+  max-width: 90%;
+}
+
+.react-tabs__tab {
+  border: 0;
+  padding: 0;
+  margin-right: 0.5rem;
+}
+
+.react-tabs__tab--selected {
+  border-color: none;
+}
+
+.react-tabs__tab--selected .flag {
+  border-radius: 50%;
+  border: 2px solid $medium-green;
+}
+
+.react-tabs__tab-panel {
+  div {
+    margin-bottom: 3rem;
+  }
+
+  h2 {
+    color: $medium-green;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    margin-bottom: 0.75rem;
+  }
+
+  p,
+  li {
+    color: $dark-green;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+  }
+
+  span {
+    color: $light-green;
+    font-size: 1.25rem;
+  }
+
+  .section-one p {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.react-tabs__tab-list {
+  border: 0;
+  margin-bottom: 1.5rem;
+}
+
+.hide {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .description p {
+    max-width: 95%;
+  }
+
+  .react-tabs__tab-panel {
+    h2 {
+      font-size: 1.8rem;
+      line-height: 2.1rem;
+    }
+    p,
+    li {
+      font-size: 1.7rem;
+      line-height: 1.9rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .description {
+    width: 370px;
+    height: 500px;
+    margin-top: -20px;
+  }
+
+  .description .flag {
+    height: 40px;
+  }
+
+  .description p {
+    max-width: 100%;
+  }
+
+  .react-tabs__tab {
+    margin-right: 1rem;
+  }
+
+  .react-tabs__tab-panel {
+    div {
+      margin-bottom: 2rem;
+    }
+
+    p,
+    li {
+      font-size: 1.5rem;
+    }
+  }
+
+  .react-tabs__tab-list {
+    margin-bottom: 2rem;
+  }
+
+  .hide {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .description {
+    width: 40%;
+    height: 500px;
+  }
+
+  .description .flag {
+    height: 60px;
+  }
+
+  .react-tabs__tab-panel {
+    div {
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      font-size: 4rem;
+      line-height: 4.3rem;
+      margin-bottom: 0.75rem;
+    }
+
+    p,
+    li {
+      font-size: 3rem;
+      line-height: 3.3rem;
+    }
+
+    span {
+      font-size: 2.5rem;
+    }
+  }
+}
