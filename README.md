@@ -10,6 +10,7 @@ Site vitrine réalisé pour le compte d'un client (agence Zelda Communication) a
 - intégration d'icônes SVG via la bibliothèque "react-icons"
 - ajout d'un favicon personnalisé
 - gestion du responsive mobile, tablette et grand écran
+- build du projet + mise en ligne via FTP
 
 ## 🚀 Installation
 
